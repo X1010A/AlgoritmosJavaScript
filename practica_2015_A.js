@@ -29,9 +29,23 @@ function sumatoriaN(n){
 // 2. Calcular la sumatoria de los números enteros comprendidos en el rango [x,y].
 
 function sumatoriaRangoXY(x, y){
-    for(x, x<=y || y <= x; ){
+    let respuesta = 0
+    for(x; x<=y; x++){
+        respuesta += x
+    }
+    return respuesta
+}
 
+// 3. Calcular la sumatoria de los números enteros comprendidos en el rango [x,y] que son múltiplos de tres.
+
+function sumatoriaRangoXYmultiploTres(x,y){
+    let respuesta = 0 
+    for(x; x<=y; x++){
+        if (x%3==0){
+            respuesta += x
+            console.log(x)
+        }
 
     }
-
+    return respuesta
 }
