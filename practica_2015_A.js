@@ -43,9 +43,26 @@ function sumatoriaRangoXYmultiploTres(x,y){
     for(x; x<=y; x++){
         if (x%3==0){
             respuesta += x
-            console.log(x)
         }
-
     }
     return respuesta
+}
+
+// 4. calcular la sumatoria de los números enteros comprendidos en el rango [x,y] que son primos.
+
+function sumatoriaRangoXYprimos(x,y){
+    let respuesta = 0 
+    for(x; x<=y; x++){
+        if (x%3==0){
+            respuesta += x
+        }
+    }
+    return respuesta
+}
+
+function esPrimo(n){
+    if(n ){
+
+    }
+
 }
